@@ -1,0 +1,28 @@
+:root{
+    --branco: #fff;
+    --preto: #000;
+    --intervalo: 1px;
+    --aresta: 0.5em;
+}
+
+body{
+    background-color: var(--preto);
+    line-height: 0.5em;
+}
+
+.quadrado{
+    height: var(--aresta);
+    width: var(--aresta);
+    margin: var(--intervalo);
+    background-color: var(--preto);
+}
+
+.branco{
+    background-color: var(--branco) !important;
+}
+
+.linha{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
